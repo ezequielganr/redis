@@ -1,0 +1,26 @@
+{
+    "name": "10526",
+    "version": "1.4.3",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "express-rate-limit": "^6.3.0",
+        "helmet": "^5.0.2",
+        "morgan": "^1.10.0",
+        "redis": "^4.0.3",
+        "response-time": "^2.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
